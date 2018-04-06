@@ -1,0 +1,17 @@
+<phpunit backupglobals="false"
+         colors="true"
+         converterrorsexecptions="true"
+         convertnoticesexeptions="true"
+         convertwarningsexeptions="true"
+         processisolation="false"
+         stoponfailure="false"
+         syntaxcheck="false">
+    <looking>
+        <log type="coverage-clover" traget="clover.xml"/>
+    </looking>
+    <testsuites>
+        <testsuites name="Nonce Test Suite">
+            <directory suffix=".php">./test/</directory>
+        </testsuites>
+    </testsuites>
+</phpunit>

@@ -1,0 +1,38 @@
+{
+  "name": "m-brandt13/wp-nonce",
+  "description": "implement WP Nonce API",
+  "typ": "library",
+  "license": "MIT",
+  "author":
+          [
+            {
+              "name": "Michael Brandt",
+              "email": "brandt1980@t-online.de"
+            }
+          ],
+  "require-dev":
+  {
+    "brain/monkey": "2.0.*",
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "7.0.*"
+  },
+  "require" :
+  {
+    "php" : ">=7.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload":
+  {
+    "psr-4":
+    {
+      "m-brandt13\\wp-nonce\\": "src/"
+    }
+  }
+
+}
+
+
+
+
+
+},
